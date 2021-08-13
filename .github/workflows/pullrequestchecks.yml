@@ -19,12 +19,12 @@ jobs:
         with:
           python-version: 3.7
 
-      #- name: Install Poetry
-      #  uses: actions/checkout@v2
-#	with:
-#	  python-version: 3.7
-#	uses: Gr1N/setup=poetry@v7
-#	run: poetry --version
+      - name: Install Poetry
+        uses: actions/checkout@v2
+	with:
+	  python-version: 3.7
+	uses: Gr1N/setup=poetry@v7
+	run: poetry --version
 
       #- name: Cache Poetry virtualenv
       #  uses: actions/cache@v1

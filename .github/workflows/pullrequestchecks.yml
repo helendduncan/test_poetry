@@ -19,19 +19,9 @@ jobs:
         with:
           python-version: 3.7
 
-      - name: Install Poetry
+      - name: Install Poetry with venvs
         uses: snok/install-poetry@v1
-#        uses: actions/checkout@v2
-#	with:
-#	  python-version: 3.7
-#	uses: Gr1N/setup=poetry@v7
-#	run: poetry --version
-
-      #- name: Cache Poetry virtualenv
-      #  uses: actions/cache@v1
-      #  id: cache
-      #  with:
-      #    path: ~/.virtualenvs
-      #    key: poetry-$
-      #    restore-keys: |
-      #      poetry-$
+	with:
+	  virtualenvs-create: true
+	  virtualenvs-in-project: true
+	  

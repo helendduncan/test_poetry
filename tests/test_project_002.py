@@ -3,7 +3,7 @@ from sup_002.hello import hello
 from project_002.maths import add_one, add_two, times_three
 
 def test_version():
-    assert __version__ == '0.1.1'
+    assert __version__ == '0.1.2'
 
 def test_hello():
     assert hello() == "Howdy Stranger"

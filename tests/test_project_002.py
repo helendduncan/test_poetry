@@ -4,7 +4,7 @@ from project_002.maths import add_one, add_two, times_three
 from process.allin import reader
 
 def test_reader():
-    assert reader("../demo_data/example_input_001.csv") == 'Using file ../demo_data/example_input_001.csv'
+    assert reader('../demo_data/example_input_001.csv') == 'Using file ../demo_data/example_input_001.csv'
     
 def test_version():
     assert __version__ == '0.1.2'

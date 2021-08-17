@@ -5,7 +5,7 @@ description = "A test project with two folders does nothing interesting"
 authors = ["Helen Duncan <hduncan@turing.ac.uk>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7.1"
 numpy = "^1.21.1"
 pandas = "^1.3.1"
 matplotlib = "^3.4.2"
